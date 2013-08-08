@@ -1,0 +1,75 @@
+.div_izq {
+	
+	float: left;
+	width: 35%;
+	margin-right:10px;
+	padding:5px;
+
+	}
+	
+#id_centro{
+ 	
+ 	float: left;
+	width: 30%;
+	margin-right:10px;
+	padding:5px;
+ }
+ 
+#id_div_derecho{
+ 	
+ 	float: left;
+	width: 30%;
+	margin-right:10px;
+	padding:5px;
+ }
+ 
+#cabecera{
+	width: 100%;
+	padding: 5px;
+	height: 100px;
+	background:rgb(255,255,255);
+	border-radius: 15px;
+	text-align:center;
+	overflow:hidden;
+	}
+#logo_cabecera{
+	position: relative;
+	float:right;
+	width:150;
+	margin-right:100px;
+	}
+
+body{
+	padding:20px;
+	background:url(../../imagenes/fondofup.jpg);
+	}
+
+#menu_general{
+
+	height:30px;
+	background:rgb(255,255,255);
+	margin-top:10px;
+    border-radius: 15px;
+	padding-left:15px;
+	padding-right:15px;
+	padding-top:10px;
+	overflow:hidden;
+	}
+	
+.menu_general{
+	display:block;
+	display:inline;
+	background:rgb(0,102,255);
+	border-radius: 8px;
+	margin-left:10px;
+	color:rgb(255,255,255);
+	text-decoration:none;
+	}
+	
+#contenido{
+	overflow:hidden;	
+	border-radius: 15px;
+	background:rgb(255,255,255);
+	margin-top:10px;
+	padding:20px;
+	}

@@ -1,0 +1,157 @@
+/*Archivo de CSS General*/
+body
+{
+	background: #EFEFEF;
+	font-family: arial;
+	font-size: 16px;
+}
+body h2
+{
+	text-align: center;
+}
+
+footer
+{
+	background: #22BCE0;
+	padding: 0.5em;
+	margin-bottom: 0;
+	text-align: center;
+	width: 100%;
+	
+}
+footer a
+{
+	color: white;
+	font-size: 0.8em;
+	text-decoration: none;
+}
+form
+{
+	background: white;
+	margin: 2em auto 0 auto;
+	padding: 1em;
+	text-align: justify;
+}
+
+header
+{
+	background: #434343;
+	border-bottom: 0.5em #22BCE0 solid;
+	border-right: 0.5em #22BCE0 solid;
+	padding: 0.5 em;
+	max-height: 116px;
+	min-width: 600px;
+	
+}
+header #avatar
+{
+	float: right;
+	margin: 0 1em 0 0 ;
+}
+
+header figure, h1
+{
+	display: inline-block;
+	vertical-align: top;
+
+}
+header figure img
+{
+	height: 100px;
+	margin: 0.5em 0;
+}
+header h1
+{
+	color: white;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 1.5em 0.5em 1.5em 0.5em;
+}
+
+#botonera
+{
+	background: white;
+	margin: 0 auto 0 auto;
+	padding: 1em;
+	width: 80%;
+}
+#botonera  a
+{
+	text-decoration: none;
+
+}
+#botonera .btn_menu
+{
+	background: #434343;
+	border-radius: 0.4em;
+	display: inline-block;
+	margin: 0.5em 1em;
+	padding: 0.5em;
+}
+#botonera .opcion_menu
+{
+	padding: 2px;
+	width: 98px;
+	
+}
+#contenido
+{
+	padding: 1em;
+}
+
+
+
+#contenido #form_login
+{	
+	background: white;
+	border-radius: 0.5em;
+	color: #4C4C4C;
+	margin: 0 auto 0 auto;
+	padding: 0.8em 2em;
+	text-align: right;
+	width: 300px;
+	
+
+}
+#contenido #form_login a 
+{
+	font-size: 0.8em;
+	text-decoration: none;
+
+}
+
+#contenido #registrar_btn
+{
+	background: #DD4F24;
+	border-radius: 0.5em;
+	display: block;
+	color: white;
+	margin: 0.5em auto 0 auto;
+	text-align: center;
+	text-decoration: none;
+	width: 150px;
+}
+
+#form_mov
+{
+	width: 400px;
+	margin: 0 auto;
+	display: none;
+}
+.btn_menu
+{
+	height: 120px;
+	vertical-align: top;
+}
+.elemento_form
+{
+	margin: 1em;
+}
+
+.titulo_btn
+{
+	color: white;
+	font-size: 1.2em;
+	margin: 0;
+	text-align: center;
+}
